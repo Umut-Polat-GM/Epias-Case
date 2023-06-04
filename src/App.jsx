@@ -8,6 +8,7 @@ import {
   setSimulation2Size,
 } from "./app/features/size/sizeSlice";
 import Settings from "./components/Settings";
+import DataTable from "./components/DataTable";
 
 function App() {
   const { splitSize, simulation1Size, simulation2Size } = useSelector(
@@ -70,7 +71,9 @@ function App() {
           defaultSize={simulation1Size}
           onChange={handleSimulation1Change}
         >
-          <div className="simulationDiv1 container">1</div>
+          <div className="simulationDiv1">
+            <DataTable />
+          </div>
           <div className="statisticsDiv2">
             <Settings />
           </div>
