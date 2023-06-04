@@ -2,7 +2,7 @@ import SplitPane from "react-split-pane";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <SplitPane split="horizontal" defaultSize={500} allowResize={true}>
         <SplitPane
           split="vertical"
