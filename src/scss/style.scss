@@ -1,2 +1,26 @@
 @import "root.scss";
 @import "split.scss";
+@import "navbar.scss";
+@import "settings.scss";
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  .container {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+.statisticsDiv2{
+  display:flex;
+  justify-content: flex-end;
+}

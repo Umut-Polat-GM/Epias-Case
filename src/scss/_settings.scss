@@ -1,0 +1,11 @@
+.settings{
+    height: 270px;
+    width: 300px;
+    background-color: peru;
+    border: 3px solid black;
+    margin: 1rem;
+
+    &__text{
+        padding: 1rem;;
+    }
+}
