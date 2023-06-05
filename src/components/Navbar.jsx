@@ -11,7 +11,7 @@ function Navbar() {
       </div>
       <div className="navbar__items">
         <div className="navbar__item">
-          <AiFillSave  style={{width:"24px", height:"24px"}}/>
+          <AiFillSave  style={{width:"32px", height:"32px", color:"green"}}/>
           <p>Çalışma Alanı</p>
         </div>
         <div>Kullanıcı</div>

@@ -87,13 +87,13 @@ const Table = () => {
                 />
               </td>
               <td>
-                <button onClick={saveRow}>Save</button>
+                <button onClick={saveRow}>Kaydet</button>
               </td>
             </tr>
           )}
         </tbody>
       </table>
-      <button onClick={addRow}>Add Row</button>
+      <button onClick={addRow}>Yeni Ekle</button>
     </div>
   );
 };
