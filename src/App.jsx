@@ -18,23 +18,23 @@ function App() {
 
   const handleSplitChange = (newSize) => {
     dispatch(setSplitSize(newSize));
-    const containerSize = window.innerWidth;
-    const percentage = (newSize / containerSize) * 100;
-    console.log("Split Size:", `${percentage.toFixed(2)}%`);
+    // const containerSize = window.innerWidth;
+    // const percentage = (newSize / containerSize) * 100;
+    // console.log("Split Size:", `${percentage.toFixed(2)}%`);
   };
 
   const handleSimulation1Change = (newSize) => {
     dispatch(setSimulation1Size(newSize));
-    const containerSize = window.innerWidth;
-    const percentage = (newSize / containerSize) * 100;
-    console.log("Simulation 1 Size:", `${percentage.toFixed(2)}%`);
+    // const containerSize = window.innerWidth;
+    // const percentage = (newSize / containerSize) * 100;
+    // console.log("Simulation 1 Size:", `${percentage.toFixed(2)}%`);
   };
 
   const handleSimulation2Change = (newSize) => {
     dispatch(setSimulation2Size(newSize));
-    const containerSize = window.innerWidth;
-    const percentage = (newSize / containerSize) * 100;
-    console.log("Simulation 2 Size:", `${percentage.toFixed(2)}%`);
+    // const containerSize = window.innerWidth;
+    // const percentage = (newSize / containerSize) * 100;
+    // console.log("Simulation 2 Size:", `${percentage.toFixed(2)}%`);
   };
 
   useEffect(() => {

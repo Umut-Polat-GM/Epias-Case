@@ -7,7 +7,7 @@ function Navbar() {
         <img
           src="../public/epias.png"
           alt="epias-png"
-          style={{ width: "48px", height: "48px" }}
+          style={{ width: "36px", height: "36px" }}
         />
       </div>
       <div className="navbar__items">

@@ -13,15 +13,20 @@ function Settings() {
   const verticall = `${percentageVerticall.toFixed(2)}%`;
   const vertical2 = `${percentageVertical2.toFixed(2)}%`;
   return (
-    <div className="settings">
-      <div className="settings__text">
-        <h2>Ayarlar</h2>
-        <h3>Yatay Pencere Değerleri:</h3>
-        <p>{horizontal}</p>
-        <h3>Üst Pencere Değerleri:</h3>
-        <p>{verticall}</p>
-        <h3>Alt Pencere Değerleri:</h3>
-        <p>{vertical2}</p>
+    <div
+      className="settingsContent"
+      style={{ width: `${containerSize - simulation1Size - 10}px` }}
+    >
+      <div className="settings">
+        <div className="settings__text">
+          <h2>Ayarlar</h2>
+          <h3>Yatay Pencere Değerleri:</h3>
+          <p>{horizontal}</p>
+          <h3>Üst Pencere Değerleri:</h3>
+          <p>{verticall}</p>
+          <h3>Alt Pencere Değerleri:</h3>
+          <p>{vertical2}</p>
+        </div>
       </div>
     </div>
   );
