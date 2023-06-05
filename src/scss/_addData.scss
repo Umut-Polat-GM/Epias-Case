@@ -1,0 +1,36 @@
+.addDataContent {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+
+    th {
+      background-color: rgba(0, 0, 0, 0.35);
+    }
+
+    th,
+    td {
+      padding: 0.25rem;
+      text-align: center;
+      border-bottom: 2px solid #ddd;
+    }
+
+    tr:hover {
+      background-color: rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  input {
+    width: 100px;
+  }
+
+  button {
+    margin: 0.05rem 0.15rem;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    border: 1px solid #ddd;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ddd;
+    cursor: pointer;
+  }
+}

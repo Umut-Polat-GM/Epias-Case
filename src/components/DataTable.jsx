@@ -69,7 +69,7 @@ const DataTable = () => {
   }
 
   return (
-    <div className="dataContent" style={{width:`${simulation1Size -10}px`}}>
+    <div className="dataTableContent" style={{width:`${simulation1Size -10}px`}}>
       <div className="table-nav">
         {/* Pagination */}
         <div>

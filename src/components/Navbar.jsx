@@ -7,13 +7,12 @@ function Navbar() {
         <img
           src="../public/epias.png"
           alt="epias-png"
-          style={{ width: "36px", height: "36px" }}
         />
       </div>
       <div className="navbar__items">
         <div className="navbar__item">
           <AiFillSave  style={{width:"24px", height:"24px"}}/>
-          Çalışma Alanı
+          <p>Çalışma Alanı</p>
         </div>
         <div>Kullanıcı</div>
       </div>

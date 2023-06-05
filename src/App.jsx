@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import SplitPane from "react-split-pane";
 import Navbar from "./components/Navbar";
+import AddData from "./components/AddData";
 import {
   setSplitSize,
   setSimulation1Size,
@@ -83,8 +84,10 @@ function App() {
           defaultSize={simulation2Size}
           onChange={handleSimulation2Change}
         >
-          <div className="simulationDiv2 container">3</div>
-          <div className="statisticsDiv2 container">4</div>
+          <div className="simulationDiv3">
+            <AddData />
+          </div>
+          <div className="statisticsDiv4">**Lorem Ipsum**</div>
         </SplitPane>
       </SplitPane>
     </div>

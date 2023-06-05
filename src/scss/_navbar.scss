@@ -1,28 +1,33 @@
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background:#101D48;
-    color: $clr-white;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #101d48;
+  color: $clr-white;
 
-    &__logo{
-        padding: .5rem 1rem;
-        display: flex;
-        align-items: center;
+  &__logo {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 36px;
+        height: 36px;
     }
-}
+  }
 
-.navbar__items{
+  &__items {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     padding: 1rem 1rem;
     gap: 2rem;
+  }
 }
 
 .navbar__item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
 }
